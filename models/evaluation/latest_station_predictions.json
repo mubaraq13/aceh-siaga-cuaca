@@ -1,0 +1,212 @@
+[
+  {
+    "wmo_id": "96003",
+    "station_name": "Stasiun Klimatologi Aceh (Indrapuri)",
+    "region_code": "11.06",
+    "last_observation_date": "2026-10-30",
+    "target_prediction_date": "2026-10-31",
+    "horizon_days": 1,
+    "predicted_rainfall_mm": 3.11,
+    "predicted_extreme_probability": 0.1792,
+    "decision_threshold": 0.64,
+    "is_potential_heavy_rain": false,
+    "predicted_category": "LIGHT",
+    "regression_model_used": "XGBoost_Regressor",
+    "classification_model_used": "XGBoost_Classifier",
+    "model_version": "v1.0.0-exp",
+    "dataset_version": "aceh_obs_v2026.11",
+    "predicted_at_wib": "2026-11-19T01:53:02.095057+07:00",
+    "top_contributing_features": [
+      {
+        "feature": "doy_cos",
+        "importance": 0.09103
+      },
+      {
+        "feature": "month_cos",
+        "importance": 0.08151
+      },
+      {
+        "feature": "rain_roll_sum_14d",
+        "importance": 0.06639
+      },
+      {
+        "feature": "doy_sin",
+        "importance": 0.04422
+      },
+      {
+        "feature": "rain_roll_mean_7d",
+        "importance": 0.03994
+      }
+    ],
+    "is_experimental": true,
+    "disclaimer_label": "Analisis model eksperimental, bukan peringatan resmi BMKG."
+  },
+  {
+    "wmo_id": "96009",
+    "station_name": "Stasiun Meteorologi Malikussaleh Aceh Utara",
+    "region_code": "11.08",
+    "last_observation_date": "2026-10-30",
+    "target_prediction_date": "2026-10-31",
+    "horizon_days": 1,
+    "predicted_rainfall_mm": 2.31,
+    "predicted_extreme_probability": 0.0538,
+    "decision_threshold": 0.64,
+    "is_potential_heavy_rain": false,
+    "predicted_category": "LIGHT",
+    "regression_model_used": "XGBoost_Regressor",
+    "classification_model_used": "XGBoost_Classifier",
+    "model_version": "v1.0.0-exp",
+    "dataset_version": "aceh_obs_v2026.11",
+    "predicted_at_wib": "2026-11-19T01:53:02.095057+07:00",
+    "top_contributing_features": [
+      {
+        "feature": "doy_cos",
+        "importance": 0.09103
+      },
+      {
+        "feature": "month_cos",
+        "importance": 0.08151
+      },
+      {
+        "feature": "rain_roll_sum_14d",
+        "importance": 0.06639
+      },
+      {
+        "feature": "doy_sin",
+        "importance": 0.04422
+      },
+      {
+        "feature": "rain_roll_mean_7d",
+        "importance": 0.03994
+      }
+    ],
+    "is_experimental": true,
+    "disclaimer_label": "Analisis model eksperimental, bukan peringatan resmi BMKG."
+  },
+  {
+    "wmo_id": "96001",
+    "station_name": "Stasiun Meteorologi Kelas I Sultan Iskandar Muda",
+    "region_code": "11.06",
+    "last_observation_date": "2026-10-30",
+    "target_prediction_date": "2026-10-31",
+    "horizon_days": 1,
+    "predicted_rainfall_mm": 1.57,
+    "predicted_extreme_probability": 0.4286,
+    "decision_threshold": 0.64,
+    "is_potential_heavy_rain": false,
+    "predicted_category": "LIGHT",
+    "regression_model_used": "XGBoost_Regressor",
+    "classification_model_used": "XGBoost_Classifier",
+    "model_version": "v1.0.0-exp",
+    "dataset_version": "aceh_obs_v2026.11",
+    "predicted_at_wib": "2026-11-19T01:53:02.095057+07:00",
+    "top_contributing_features": [
+      {
+        "feature": "doy_cos",
+        "importance": 0.09103
+      },
+      {
+        "feature": "month_cos",
+        "importance": 0.08151
+      },
+      {
+        "feature": "rain_roll_sum_14d",
+        "importance": 0.06639
+      },
+      {
+        "feature": "doy_sin",
+        "importance": 0.04422
+      },
+      {
+        "feature": "rain_roll_mean_7d",
+        "importance": 0.03994
+      }
+    ],
+    "is_experimental": true,
+    "disclaimer_label": "Analisis model eksperimental, bukan peringatan resmi BMKG."
+  },
+  {
+    "wmo_id": "96002",
+    "station_name": "Stasiun Meteorologi Maimun Saleh Sabang",
+    "region_code": "11.72",
+    "last_observation_date": "2026-10-30",
+    "target_prediction_date": "2026-10-31",
+    "horizon_days": 1,
+    "predicted_rainfall_mm": 3.62,
+    "predicted_extreme_probability": 0.2961,
+    "decision_threshold": 0.64,
+    "is_potential_heavy_rain": false,
+    "predicted_category": "LIGHT",
+    "regression_model_used": "XGBoost_Regressor",
+    "classification_model_used": "XGBoost_Classifier",
+    "model_version": "v1.0.0-exp",
+    "dataset_version": "aceh_obs_v2026.11",
+    "predicted_at_wib": "2026-11-19T01:53:02.095057+07:00",
+    "top_contributing_features": [
+      {
+        "feature": "doy_cos",
+        "importance": 0.09103
+      },
+      {
+        "feature": "month_cos",
+        "importance": 0.08151
+      },
+      {
+        "feature": "rain_roll_sum_14d",
+        "importance": 0.06639
+      },
+      {
+        "feature": "doy_sin",
+        "importance": 0.04422
+      },
+      {
+        "feature": "rain_roll_mean_7d",
+        "importance": 0.03994
+      }
+    ],
+    "is_experimental": true,
+    "disclaimer_label": "Analisis model eksperimental, bukan peringatan resmi BMKG."
+  },
+  {
+    "wmo_id": "96011",
+    "station_name": "Stasiun Meteorologi Cut Nyak Dhien Nagan Raya",
+    "region_code": "11.15",
+    "last_observation_date": "2026-10-30",
+    "target_prediction_date": "2026-10-31",
+    "horizon_days": 1,
+    "predicted_rainfall_mm": 2.48,
+    "predicted_extreme_probability": 0.1683,
+    "decision_threshold": 0.64,
+    "is_potential_heavy_rain": false,
+    "predicted_category": "LIGHT",
+    "regression_model_used": "XGBoost_Regressor",
+    "classification_model_used": "XGBoost_Classifier",
+    "model_version": "v1.0.0-exp",
+    "dataset_version": "aceh_obs_v2026.11",
+    "predicted_at_wib": "2026-11-19T01:53:02.095057+07:00",
+    "top_contributing_features": [
+      {
+        "feature": "doy_cos",
+        "importance": 0.09103
+      },
+      {
+        "feature": "month_cos",
+        "importance": 0.08151
+      },
+      {
+        "feature": "rain_roll_sum_14d",
+        "importance": 0.06639
+      },
+      {
+        "feature": "doy_sin",
+        "importance": 0.04422
+      },
+      {
+        "feature": "rain_roll_mean_7d",
+        "importance": 0.03994
+      }
+    ],
+    "is_experimental": true,
+    "disclaimer_label": "Analisis model eksperimental, bukan peringatan resmi BMKG."
+  }
+]

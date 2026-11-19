@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-canvas: #F5F8FC;
+  --bg-surface: #FFFFFF;
+  --text-primary: #102A43;
+  --text-secondary: #173F5F;
+  --border-tint: #DCEEFF;
+}
+
+.dark {
+  --bg-canvas: #0A1929;
+  --bg-surface: #102A43;
+  --text-primary: #F5F8FC;
+  --text-secondary: #DCEEFF;
+  --border-tint: #173F5F;
+}
+
+body {
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: 'Plus Jakarta Sans', 'Segoe UI', Roboto, system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Indikator Fokus Keyboard yang Jelas sesuai R-32 & WCAG AA */
+*:focus-visible {
+  outline: 3px solid #173F5F !important;
+  outline-offset: 2px !important;
+}
+
+.dark *:focus-visible {
+  outline: 3px solid #DCEEFF !important;
+  outline-offset: 2px !important;
+}

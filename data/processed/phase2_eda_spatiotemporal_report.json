@@ -1,0 +1,565 @@
+{
+  "data_source_label": "Dataset Observasi Stasiun Aceh (Mode DEMO Tervalidasi)",
+  "data_quality": {
+    "total_records": 10650,
+    "stations_count": 5,
+    "period_start": "2021-01-01",
+    "period_end": "2026-10-31",
+    "duplicate_station_date_count": 0,
+    "trace_rainfall_8888_count": 712,
+    "physical_anomaly_flagged_count": 0,
+    "missing_values_summary": {
+      "rainfall_mm": {
+        "missing_count": 180,
+        "missing_pct": 1.69,
+        "valid_count": 10470
+      },
+      "temp_min_c": {
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "valid_count": 10650
+      },
+      "temp_max_c": {
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "valid_count": 10650
+      },
+      "temp_avg_c": {
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "valid_count": 10650
+      },
+      "humidity_avg_pct": {
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "valid_count": 10650
+      },
+      "sunshine_hours": {
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "valid_count": 10650
+      },
+      "wind_speed_avg_ms": {
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "valid_count": 10650
+      },
+      "wind_speed_max_ms": {
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "valid_count": 10650
+      }
+    },
+    "station_coverage": [
+      {
+        "wmo_id": "96001",
+        "total_days": 2130,
+        "start_date": "2021-01-01",
+        "end_date": "2026-10-31",
+        "valid_rainfall_days": 2093,
+        "trace_rainfall_days": 121,
+        "missing_rainfall_days": 37
+      },
+      {
+        "wmo_id": "96002",
+        "total_days": 2130,
+        "start_date": "2021-01-01",
+        "end_date": "2026-10-31",
+        "valid_rainfall_days": 2099,
+        "trace_rainfall_days": 148,
+        "missing_rainfall_days": 31
+      },
+      {
+        "wmo_id": "96003",
+        "total_days": 2130,
+        "start_date": "2021-01-01",
+        "end_date": "2026-10-31",
+        "valid_rainfall_days": 2094,
+        "trace_rainfall_days": 147,
+        "missing_rainfall_days": 36
+      },
+      {
+        "wmo_id": "96009",
+        "total_days": 2130,
+        "start_date": "2021-01-01",
+        "end_date": "2026-10-31",
+        "valid_rainfall_days": 2090,
+        "trace_rainfall_days": 147,
+        "missing_rainfall_days": 40
+      },
+      {
+        "wmo_id": "96011",
+        "total_days": 2130,
+        "start_date": "2021-01-01",
+        "end_date": "2026-10-31",
+        "valid_rainfall_days": 2094,
+        "trace_rainfall_days": 149,
+        "missing_rainfall_days": 36
+      }
+    ]
+  },
+  "descriptive_statistics": [
+    {
+      "variable": "rainfall_mm",
+      "count": 10470,
+      "mean": 5.491,
+      "std": 13.066,
+      "variance": 170.725,
+      "min": 0.0,
+      "q25": 0.0,
+      "median": 0.0,
+      "q75": 3.9,
+      "iqr": 3.9,
+      "q90": 20.0,
+      "q95": 31.455,
+      "q99": 61.824,
+      "max": 178.5,
+      "skewness": 3.898
+    },
+    {
+      "variable": "temp_min_c",
+      "count": 10650,
+      "mean": 23.52,
+      "std": 1.04,
+      "variance": 1.081,
+      "min": 19.5,
+      "q25": 22.8,
+      "median": 23.5,
+      "q75": 24.2,
+      "iqr": 1.4,
+      "q90": 24.9,
+      "q95": 25.2,
+      "q99": 25.9,
+      "max": 27.2,
+      "skewness": -0.042
+    },
+    {
+      "variable": "temp_max_c",
+      "count": 10650,
+      "mean": 31.025,
+      "std": 1.086,
+      "variance": 1.179,
+      "min": 26.8,
+      "q25": 30.3,
+      "median": 31.0,
+      "q75": 31.8,
+      "iqr": 1.5,
+      "q90": 32.4,
+      "q95": 32.8,
+      "q99": 33.5,
+      "max": 34.7,
+      "skewness": -0.029
+    },
+    {
+      "variable": "temp_avg_c",
+      "count": 10650,
+      "mean": 26.923,
+      "std": 0.833,
+      "variance": 0.694,
+      "min": 24.0,
+      "q25": 26.4,
+      "median": 26.9,
+      "q75": 27.5,
+      "iqr": 1.1,
+      "q90": 28.0,
+      "q95": 28.3,
+      "q99": 28.8,
+      "max": 29.7,
+      "skewness": -0.055
+    },
+    {
+      "variable": "humidity_avg_pct",
+      "count": 10650,
+      "mean": 79.39,
+      "std": 6.645,
+      "variance": 44.162,
+      "min": 62.0,
+      "q25": 74.4,
+      "median": 78.1,
+      "q75": 84.1,
+      "iqr": 9.7,
+      "q90": 89.4,
+      "q95": 91.4,
+      "q99": 94.951,
+      "max": 99.0,
+      "skewness": 0.458
+    },
+    {
+      "variable": "sunshine_hours",
+      "count": 10650,
+      "mean": 6.957,
+      "std": 2.313,
+      "variance": 5.35,
+      "min": 0.0,
+      "q25": 5.3,
+      "median": 7.3,
+      "q75": 8.7,
+      "iqr": 3.4,
+      "q90": 9.7,
+      "q95": 10.3,
+      "q99": 11.4,
+      "max": 11.5,
+      "skewness": -0.424
+    },
+    {
+      "variable": "wind_speed_avg_ms",
+      "count": 10650,
+      "mean": 2.442,
+      "std": 1.622,
+      "variance": 2.63,
+      "min": 0.5,
+      "q25": 1.2,
+      "median": 2.1,
+      "q75": 3.3,
+      "iqr": 2.1,
+      "q90": 4.6,
+      "q95": 5.6,
+      "q99": 7.8,
+      "max": 12.5,
+      "skewness": 1.341
+    },
+    {
+      "variable": "wind_speed_max_ms",
+      "count": 10650,
+      "mean": 5.952,
+      "std": 2.111,
+      "variance": 4.457,
+      "min": 0.5,
+      "q25": 4.5,
+      "median": 5.7,
+      "q75": 7.2,
+      "iqr": 2.7,
+      "q90": 8.7,
+      "q95": 9.7,
+      "q99": 11.9,
+      "max": 18.4,
+      "skewness": 0.586
+    }
+  ],
+  "seasonal_summary": [
+    {
+      "aceh_season": "DJF_MONSUN_BARAT",
+      "obs_days": 2504,
+      "mean_daily_rainfall_mm": 8.44,
+      "max_daily_rainfall_mm": 178.5,
+      "extreme_50mm_events": 92,
+      "mean_temp_c": 26.86,
+      "mean_humidity_pct": 80.27
+    },
+    {
+      "aceh_season": "JJA_KEMARAU_RELATIF",
+      "obs_days": 2713,
+      "mean_daily_rainfall_mm": 3.07,
+      "max_daily_rainfall_mm": 78.5,
+      "extreme_50mm_events": 10,
+      "mean_temp_c": 26.98,
+      "mean_humidity_pct": 78.45
+    },
+    {
+      "aceh_season": "MAM_TRANSISI_EKUATORIAL",
+      "obs_days": 2712,
+      "mean_daily_rainfall_mm": 3.33,
+      "max_daily_rainfall_mm": 80.0,
+      "extreme_50mm_events": 13,
+      "mean_temp_c": 26.97,
+      "mean_humidity_pct": 78.69
+    },
+    {
+      "aceh_season": "SON_PUNCAK_HUJAN_UTAMA",
+      "obs_days": 2541,
+      "mean_daily_rainfall_mm": 7.48,
+      "max_daily_rainfall_mm": 175.4,
+      "extreme_50mm_events": 68,
+      "mean_temp_c": 26.86,
+      "mean_humidity_pct": 80.28
+    }
+  ],
+  "correlation_analysis": {
+    "methodology_note": "Korelasi mengukur derajat asosiasi statistik antarvariabel meteorologi (Spearman rho digunakan sebagai rujukan utama karena distribusi curah hujan menceng kanan/zero-inflated). Korelasi TIDAK membuktikan hubungan kausalitas langsung.",
+    "spearman_matrix": {
+      "rainfall_mm": {
+        "rainfall_mm": 1.0,
+        "temp_min_c": -0.3352,
+        "temp_max_c": -0.3136,
+        "temp_avg_c": -0.4181,
+        "humidity_avg_pct": 0.7441,
+        "sunshine_hours": -0.7229,
+        "wind_speed_avg_ms": -0.0021,
+        "wind_speed_max_ms": -0.0024
+      },
+      "temp_min_c": {
+        "rainfall_mm": -0.3352,
+        "temp_min_c": 1.0,
+        "temp_max_c": 0.606,
+        "temp_avg_c": 0.8016,
+        "humidity_avg_pct": -0.2601,
+        "sunshine_hours": 0.247,
+        "wind_speed_avg_ms": 0.0013,
+        "wind_speed_max_ms": 0.0116
+      },
+      "temp_max_c": {
+        "rainfall_mm": -0.3136,
+        "temp_min_c": 0.606,
+        "temp_max_c": 1.0,
+        "temp_avg_c": 0.754,
+        "humidity_avg_pct": -0.2476,
+        "sunshine_hours": 0.2306,
+        "wind_speed_avg_ms": 0.0065,
+        "wind_speed_max_ms": 0.0089
+      },
+      "temp_avg_c": {
+        "rainfall_mm": -0.4181,
+        "temp_min_c": 0.8016,
+        "temp_max_c": 0.754,
+        "temp_avg_c": 1.0,
+        "humidity_avg_pct": -0.3233,
+        "sunshine_hours": 0.3109,
+        "wind_speed_avg_ms": 0.0029,
+        "wind_speed_max_ms": 0.0055
+      },
+      "humidity_avg_pct": {
+        "rainfall_mm": 0.7441,
+        "temp_min_c": -0.2601,
+        "temp_max_c": -0.2476,
+        "temp_avg_c": -0.3233,
+        "humidity_avg_pct": 1.0,
+        "sunshine_hours": -0.5538,
+        "wind_speed_avg_ms": -0.0061,
+        "wind_speed_max_ms": -0.0022
+      },
+      "sunshine_hours": {
+        "rainfall_mm": -0.7229,
+        "temp_min_c": 0.247,
+        "temp_max_c": 0.2306,
+        "temp_avg_c": 0.3109,
+        "humidity_avg_pct": -0.5538,
+        "sunshine_hours": 1.0,
+        "wind_speed_avg_ms": -0.0005,
+        "wind_speed_max_ms": 0.0017
+      },
+      "wind_speed_avg_ms": {
+        "rainfall_mm": -0.0021,
+        "temp_min_c": 0.0013,
+        "temp_max_c": 0.0065,
+        "temp_avg_c": 0.0029,
+        "humidity_avg_pct": -0.0061,
+        "sunshine_hours": -0.0005,
+        "wind_speed_avg_ms": 1.0,
+        "wind_speed_max_ms": 0.6997
+      },
+      "wind_speed_max_ms": {
+        "rainfall_mm": -0.0024,
+        "temp_min_c": 0.0116,
+        "temp_max_c": 0.0089,
+        "temp_avg_c": 0.0055,
+        "humidity_avg_pct": -0.0022,
+        "sunshine_hours": 0.0017,
+        "wind_speed_avg_ms": 0.6997,
+        "wind_speed_max_ms": 1.0
+      }
+    },
+    "pearson_matrix": {
+      "rainfall_mm": {
+        "rainfall_mm": 1.0,
+        "temp_min_c": -0.2258,
+        "temp_max_c": -0.2093,
+        "temp_avg_c": -0.2806,
+        "humidity_avg_pct": 0.5185,
+        "sunshine_hours": -0.4924,
+        "wind_speed_avg_ms": 0.0074,
+        "wind_speed_max_ms": -0.0003
+      },
+      "temp_min_c": {
+        "rainfall_mm": -0.2258,
+        "temp_min_c": 1.0,
+        "temp_max_c": 0.62,
+        "temp_avg_c": 0.8126,
+        "humidity_avg_pct": -0.2789,
+        "sunshine_hours": 0.2625,
+        "wind_speed_avg_ms": 0.0038,
+        "wind_speed_max_ms": 0.0101
+      },
+      "temp_max_c": {
+        "rainfall_mm": -0.2093,
+        "temp_min_c": 0.62,
+        "temp_max_c": 1.0,
+        "temp_avg_c": 0.7664,
+        "humidity_avg_pct": -0.2634,
+        "sunshine_hours": 0.2462,
+        "wind_speed_avg_ms": 0.0105,
+        "wind_speed_max_ms": 0.0132
+      },
+      "temp_avg_c": {
+        "rainfall_mm": -0.2806,
+        "temp_min_c": 0.8126,
+        "temp_max_c": 0.7664,
+        "temp_avg_c": 1.0,
+        "humidity_avg_pct": -0.3447,
+        "sunshine_hours": 0.3293,
+        "wind_speed_avg_ms": 0.0057,
+        "wind_speed_max_ms": 0.0064
+      },
+      "humidity_avg_pct": {
+        "rainfall_mm": 0.5185,
+        "temp_min_c": -0.2789,
+        "temp_max_c": -0.2634,
+        "temp_avg_c": -0.3447,
+        "humidity_avg_pct": 1.0,
+        "sunshine_hours": -0.607,
+        "wind_speed_avg_ms": 0.0052,
+        "wind_speed_max_ms": 0.0015
+      },
+      "sunshine_hours": {
+        "rainfall_mm": -0.4924,
+        "temp_min_c": 0.2625,
+        "temp_max_c": 0.2462,
+        "temp_avg_c": 0.3293,
+        "humidity_avg_pct": -0.607,
+        "sunshine_hours": 1.0,
+        "wind_speed_avg_ms": -0.0024,
+        "wind_speed_max_ms": 0.0023
+      },
+      "wind_speed_avg_ms": {
+        "rainfall_mm": 0.0074,
+        "temp_min_c": 0.0038,
+        "temp_max_c": 0.0105,
+        "temp_avg_c": 0.0057,
+        "humidity_avg_pct": 0.0052,
+        "sunshine_hours": -0.0024,
+        "wind_speed_avg_ms": 1.0,
+        "wind_speed_max_ms": 0.7576
+      },
+      "wind_speed_max_ms": {
+        "rainfall_mm": -0.0003,
+        "temp_min_c": 0.0101,
+        "temp_max_c": 0.0132,
+        "temp_avg_c": 0.0064,
+        "humidity_avg_pct": 0.0015,
+        "sunshine_hours": 0.0023,
+        "wind_speed_avg_ms": 0.7576,
+        "wind_speed_max_ms": 1.0
+      }
+    },
+    "rainfall_associations": [
+      {
+        "variable": "temp_min_c",
+        "sample_size": 10470,
+        "spearman_rho": -0.3352,
+        "pearson_r": -0.2258,
+        "spearman_p_value": 0.0,
+        "direction": "NEGATIF"
+      },
+      {
+        "variable": "temp_max_c",
+        "sample_size": 10470,
+        "spearman_rho": -0.3136,
+        "pearson_r": -0.2093,
+        "spearman_p_value": 0.0,
+        "direction": "NEGATIF"
+      },
+      {
+        "variable": "temp_avg_c",
+        "sample_size": 10470,
+        "spearman_rho": -0.4181,
+        "pearson_r": -0.2806,
+        "spearman_p_value": 0.0,
+        "direction": "NEGATIF"
+      },
+      {
+        "variable": "humidity_avg_pct",
+        "sample_size": 10470,
+        "spearman_rho": 0.7441,
+        "pearson_r": 0.5185,
+        "spearman_p_value": 0.0,
+        "direction": "POSITIF"
+      },
+      {
+        "variable": "sunshine_hours",
+        "sample_size": 10470,
+        "spearman_rho": -0.7229,
+        "pearson_r": -0.4924,
+        "spearman_p_value": 0.0,
+        "direction": "NEGATIF"
+      },
+      {
+        "variable": "wind_speed_avg_ms",
+        "sample_size": 10470,
+        "spearman_rho": -0.0021,
+        "pearson_r": 0.0074,
+        "spearman_p_value": 0.82901,
+        "direction": "NEGATIF"
+      },
+      {
+        "variable": "wind_speed_max_ms",
+        "sample_size": 10470,
+        "spearman_rho": -0.0024,
+        "pearson_r": -0.0003,
+        "spearman_p_value": 0.803676,
+        "direction": "NEGATIF"
+      }
+    ]
+  },
+  "spatiotemporal_analysis": {
+    "spatial_limitation_statement": "KETERBATASAN ANALISIS SPASIAL: Jaringan stasiun pengamatan sinoptik utama BMKG yang terbuka di Provinsi Aceh terdiri atas 5 stasiun yang terkonsentrasi di wilayah pesisir dan lembah (Aceh Besar, Sabang, Aceh Utara, dan Nagan Raya). Mengingat topografi Pegunungan Bukit Barisan di bagian tengah Aceh (elevasi >1.000 mdpl) menciptakan efek orografis yang tajam, sistem ini TIDAK melakukan interpolasi permukaan kontinu (IDW/Kriging) dari 5 titik stasiun ke seluruh kabupaten pegunungan untuk menghindari galat estimasi yang menyesatkan. Analisis wilayah disajikan pada titik lokasi stasiun yang terverifikasi dan agregasi batas administrasi kabupaten/kota.",
+    "rainfall_by_topography_zone": [
+      {
+        "topography_zone": "KEPULAUAN",
+        "mean_daily_rainfall_mm": 5.41,
+        "max_daily_rainfall_mm": 119.5,
+        "extreme_50mm_days": 38
+      },
+      {
+        "topography_zone": "PESISIR_BARAT_SELATAN",
+        "mean_daily_rainfall_mm": 7.47,
+        "max_daily_rainfall_mm": 178.5,
+        "extreme_50mm_days": 73
+      },
+      {
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "mean_daily_rainfall_mm": 4.86,
+        "max_daily_rainfall_mm": 140.5,
+        "extreme_50mm_days": 72
+      }
+    ],
+    "disasters_by_topography_zone": [
+      {
+        "topography_zone": "DATARAN_TINGGI_TENGAH",
+        "total_disasters": 47,
+        "flood_count": 22,
+        "landslide_count": 22,
+        "total_affected_people": 44212
+      },
+      {
+        "topography_zone": "KEPULAUAN",
+        "total_disasters": 3,
+        "flood_count": 2,
+        "landslide_count": 0,
+        "total_affected_people": 4146
+      },
+      {
+        "topography_zone": "PESISIR_BARAT_SELATAN",
+        "total_disasters": 84,
+        "flood_count": 65,
+        "landslide_count": 10,
+        "total_affected_people": 109439
+      },
+      {
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "total_disasters": 110,
+        "flood_count": 91,
+        "landslide_count": 10,
+        "total_affected_people": 168109
+      }
+    ],
+    "monthly_extreme_rain_vs_disaster_spearman_rho": 0.2363
+  },
+  "generated_figures": {
+    "rainfall_trend": "data\\processed\\figures\\01_rainfall_trend.png",
+    "monthly_rainfall": "data\\processed\\figures\\02_monthly_rainfall.png",
+    "rainfall_heatmap": "data\\processed\\figures\\03_rainfall_heatmap.png",
+    "rainfall_distribution": "data\\processed\\figures\\04_rainfall_distribution.png",
+    "temp_humidity_dynamics": "data\\processed\\figures\\05_temp_humidity_dynamics.png",
+    "regional_station_comparison": "data\\processed\\figures\\06_regional_station_comparison.png",
+    "extreme_rain_calendar": "data\\processed\\figures\\07_extreme_rain_calendar.png"
+  }
+}

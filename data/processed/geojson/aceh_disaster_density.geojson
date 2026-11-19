@@ -1,0 +1,1090 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "layer_name": "Peta Kepadatan Kejadian Bencana Hidrometeorologi Kabupaten/Kota Aceh",
+    "spatial_limitation_note": "KETERBATASAN ANALISIS SPASIAL: Jaringan stasiun pengamatan sinoptik utama BMKG yang terbuka di Provinsi Aceh terdiri atas 5 stasiun yang terkonsentrasi di wilayah pesisir dan lembah (Aceh Besar, Sabang, Aceh Utara, dan Nagan Raya). Mengingat topografi Pegunungan Bukit Barisan di bagian tengah Aceh (elevasi >1.000 mdpl) menciptakan efek orografis yang tajam, sistem ini TIDAK melakukan interpolasi permukaan kontinu (IDW/Kriging) dari 5 titik stasiun ke seluruh kabupaten pegunungan untuk menghindari galat estimasi yang menyesatkan. Analisis wilayah disajikan pada titik lokasi stasiun yang terverifikasi dan agregasi batas administrasi kabupaten/kota."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97.0003,
+              3.0777
+            ],
+            [
+              97.3603,
+              3.0777
+            ],
+            [
+              97.3603,
+              3.4377
+            ],
+            [
+              97.0003,
+              3.4377
+            ],
+            [
+              97.0003,
+              3.0777
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.01",
+        "region_name": "Kabupaten Aceh Selatan",
+        "centroid_lat": 3.2577,
+        "centroid_lon": 97.1803,
+        "elevation_m": 15.0,
+        "topography_zone": "PESISIR_BARAT_SELATAN",
+        "nearest_bmkg_station_wmo": "96011",
+        "total_disaster_events": 15,
+        "flood_events": 13,
+        "flash_flood_events": 0,
+        "landslide_events": 0,
+        "wind_events": 2,
+        "total_affected_people": 20749,
+        "total_houses_submerged": 6587,
+        "hydromet_density_class": "SEDANG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97.6308,
+              3.3113
+            ],
+            [
+              97.9908,
+              3.3113
+            ],
+            [
+              97.9908,
+              3.6713
+            ],
+            [
+              97.6308,
+              3.6713
+            ],
+            [
+              97.6308,
+              3.3113
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.02",
+        "region_name": "Kabupaten Aceh Tenggara",
+        "centroid_lat": 3.4913,
+        "centroid_lon": 97.8108,
+        "elevation_m": 320.0,
+        "topography_zone": "DATARAN_TINGGI_TENGAH",
+        "nearest_bmkg_station_wmo": "96009",
+        "total_disaster_events": 5,
+        "flood_events": 2,
+        "flash_flood_events": 0,
+        "landslide_events": 3,
+        "wind_events": 0,
+        "total_affected_people": 5981,
+        "total_houses_submerged": 412,
+        "hydromet_density_class": "RENDAH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97.5867,
+              4.77
+            ],
+            [
+              97.9467,
+              4.77
+            ],
+            [
+              97.9467,
+              5.13
+            ],
+            [
+              97.5867,
+              5.13
+            ],
+            [
+              97.5867,
+              4.77
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.03",
+        "region_name": "Kabupaten Aceh Timur",
+        "centroid_lat": 4.95,
+        "centroid_lon": 97.7667,
+        "elevation_m": 18.0,
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "nearest_bmkg_station_wmo": "96009",
+        "total_disaster_events": 21,
+        "flood_events": 18,
+        "flash_flood_events": 0,
+        "landslide_events": 0,
+        "wind_events": 3,
+        "total_affected_people": 36482,
+        "total_houses_submerged": 7685,
+        "hydromet_density_class": "TINGGI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              96.6692,
+              4.4447
+            ],
+            [
+              97.0292,
+              4.4447
+            ],
+            [
+              97.0292,
+              4.8047
+            ],
+            [
+              96.6692,
+              4.8047
+            ],
+            [
+              96.6692,
+              4.4447
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.04",
+        "region_name": "Kabupaten Aceh Tengah",
+        "centroid_lat": 4.6247,
+        "centroid_lon": 96.8492,
+        "elevation_m": 1250.0,
+        "topography_zone": "DATARAN_TINGGI_TENGAH",
+        "nearest_bmkg_station_wmo": "96009",
+        "total_disaster_events": 17,
+        "flood_events": 7,
+        "flash_flood_events": 0,
+        "landslide_events": 9,
+        "wind_events": 1,
+        "total_affected_people": 14765,
+        "total_houses_submerged": 3022,
+        "hydromet_density_class": "SEDANG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              95.9464,
+              3.9649
+            ],
+            [
+              96.3064,
+              3.9649
+            ],
+            [
+              96.3064,
+              4.3249
+            ],
+            [
+              95.9464,
+              4.3249
+            ],
+            [
+              95.9464,
+              3.9649
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.05",
+        "region_name": "Kabupaten Aceh Barat",
+        "centroid_lat": 4.1449,
+        "centroid_lon": 96.1264,
+        "elevation_m": 8.0,
+        "topography_zone": "PESISIR_BARAT_SELATAN",
+        "nearest_bmkg_station_wmo": "96011",
+        "total_disaster_events": 22,
+        "flood_events": 22,
+        "flash_flood_events": 0,
+        "landslide_events": 0,
+        "wind_events": 0,
+        "total_affected_people": 38246,
+        "total_houses_submerged": 10381,
+        "hydromet_density_class": "TINGGI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              95.4172,
+              5.1117
+            ],
+            [
+              95.7772,
+              5.1117
+            ],
+            [
+              95.7772,
+              5.4717
+            ],
+            [
+              95.4172,
+              5.4717
+            ],
+            [
+              95.4172,
+              5.1117
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.06",
+        "region_name": "Kabupaten Aceh Besar",
+        "centroid_lat": 5.2917,
+        "centroid_lon": 95.5972,
+        "elevation_m": 35.0,
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "nearest_bmkg_station_wmo": "96003",
+        "total_disaster_events": 26,
+        "flood_events": 20,
+        "flash_flood_events": 0,
+        "landslide_events": 5,
+        "wind_events": 1,
+        "total_affected_people": 36416,
+        "total_houses_submerged": 9898,
+        "hydromet_density_class": "TINGGI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              95.7808,
+              5.2047
+            ],
+            [
+              96.1408,
+              5.2047
+            ],
+            [
+              96.1408,
+              5.5647
+            ],
+            [
+              95.7808,
+              5.5647
+            ],
+            [
+              95.7808,
+              5.2047
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.07",
+        "region_name": "Kabupaten Pidie",
+        "centroid_lat": 5.3847,
+        "centroid_lon": 95.9608,
+        "elevation_m": 12.0,
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "nearest_bmkg_station_wmo": "96003",
+        "total_disaster_events": 5,
+        "flood_events": 2,
+        "flash_flood_events": 0,
+        "landslide_events": 2,
+        "wind_events": 1,
+        "total_affected_people": 5542,
+        "total_houses_submerged": 1544,
+        "hydromet_density_class": "RENDAH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97.1381,
+              4.8717
+            ],
+            [
+              97.4981,
+              4.8717
+            ],
+            [
+              97.4981,
+              5.2317
+            ],
+            [
+              97.1381,
+              5.2317
+            ],
+            [
+              97.1381,
+              4.8717
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.08",
+        "region_name": "Kabupaten Aceh Utara",
+        "centroid_lat": 5.0517,
+        "centroid_lon": 97.3181,
+        "elevation_m": 14.0,
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "nearest_bmkg_station_wmo": "96009",
+        "total_disaster_events": 20,
+        "flood_events": 19,
+        "flash_flood_events": 0,
+        "landslide_events": 1,
+        "wind_events": 0,
+        "total_affected_people": 33948,
+        "total_houses_submerged": 8868,
+        "hydromet_density_class": "TINGGI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              96.1961,
+              2.2989
+            ],
+            [
+              96.5561,
+              2.2989
+            ],
+            [
+              96.5561,
+              2.6589
+            ],
+            [
+              96.1961,
+              2.6589
+            ],
+            [
+              96.1961,
+              2.2989
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.09",
+        "region_name": "Kabupaten Simeulue",
+        "centroid_lat": 2.4789,
+        "centroid_lon": 96.3761,
+        "elevation_m": 10.0,
+        "topography_zone": "KEPULAUAN",
+        "nearest_bmkg_station_wmo": "96011",
+        "total_disaster_events": 3,
+        "flood_events": 2,
+        "flash_flood_events": 0,
+        "landslide_events": 0,
+        "wind_events": 1,
+        "total_affected_people": 4146,
+        "total_houses_submerged": 935,
+        "hydromet_density_class": "RENDAH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97.615,
+              2.1089
+            ],
+            [
+              97.975,
+              2.1089
+            ],
+            [
+              97.975,
+              2.4689
+            ],
+            [
+              97.615,
+              2.4689
+            ],
+            [
+              97.615,
+              2.1089
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.10",
+        "region_name": "Kabupaten Aceh Singkil",
+        "centroid_lat": 2.2889,
+        "centroid_lon": 97.795,
+        "elevation_m": 7.0,
+        "topography_zone": "PESISIR_BARAT_SELATAN",
+        "nearest_bmkg_station_wmo": "96011",
+        "total_disaster_events": 0,
+        "flood_events": 0,
+        "flash_flood_events": 0,
+        "landslide_events": 0,
+        "wind_events": 0,
+        "total_affected_people": 0,
+        "total_houses_submerged": 0,
+        "hydromet_density_class": "RENDAH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              96.5219,
+              5.0214
+            ],
+            [
+              96.8819,
+              5.0214
+            ],
+            [
+              96.8819,
+              5.3814
+            ],
+            [
+              96.5219,
+              5.3814
+            ],
+            [
+              96.5219,
+              5.0214
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.11",
+        "region_name": "Kabupaten Bireuen",
+        "centroid_lat": 5.2014,
+        "centroid_lon": 96.7019,
+        "elevation_m": 15.0,
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "nearest_bmkg_station_wmo": "96009",
+        "total_disaster_events": 5,
+        "flood_events": 3,
+        "flash_flood_events": 0,
+        "landslide_events": 0,
+        "wind_events": 2,
+        "total_affected_people": 8884,
+        "total_houses_submerged": 1424,
+        "hydromet_density_class": "RENDAH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              96.6522,
+              3.5631
+            ],
+            [
+              97.0122,
+              3.5631
+            ],
+            [
+              97.0122,
+              3.9231
+            ],
+            [
+              96.6522,
+              3.9231
+            ],
+            [
+              96.6522,
+              3.5631
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.12",
+        "region_name": "Kabupaten Aceh Barat Daya",
+        "centroid_lat": 3.7431,
+        "centroid_lon": 96.8322,
+        "elevation_m": 18.0,
+        "topography_zone": "PESISIR_BARAT_SELATAN",
+        "nearest_bmkg_station_wmo": "96011",
+        "total_disaster_events": 6,
+        "flood_events": 4,
+        "flash_flood_events": 0,
+        "landslide_events": 0,
+        "wind_events": 2,
+        "total_affected_people": 4750,
+        "total_houses_submerged": 2248,
+        "hydromet_density_class": "RENDAH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97.17,
+              3.8033
+            ],
+            [
+              97.53,
+              3.8033
+            ],
+            [
+              97.53,
+              4.1633
+            ],
+            [
+              97.17,
+              4.1633
+            ],
+            [
+              97.17,
+              3.8033
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.13",
+        "region_name": "Kabupaten Gayo Lues",
+        "centroid_lat": 3.9833,
+        "centroid_lon": 97.35,
+        "elevation_m": 950.0,
+        "topography_zone": "DATARAN_TINGGI_TENGAH",
+        "nearest_bmkg_station_wmo": "96011",
+        "total_disaster_events": 10,
+        "flood_events": 5,
+        "flash_flood_events": 0,
+        "landslide_events": 5,
+        "wind_events": 0,
+        "total_affected_people": 12327,
+        "total_houses_submerged": 2632,
+        "hydromet_density_class": "SEDANG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              95.4019,
+              4.4519
+            ],
+            [
+              95.7619,
+              4.4519
+            ],
+            [
+              95.7619,
+              4.8119
+            ],
+            [
+              95.4019,
+              4.8119
+            ],
+            [
+              95.4019,
+              4.4519
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.14",
+        "region_name": "Kabupaten Aceh Jaya",
+        "centroid_lat": 4.6319,
+        "centroid_lon": 95.5819,
+        "elevation_m": 12.0,
+        "topography_zone": "PESISIR_BARAT_SELATAN",
+        "nearest_bmkg_station_wmo": "96003",
+        "total_disaster_events": 23,
+        "flood_events": 9,
+        "flash_flood_events": 0,
+        "landslide_events": 10,
+        "wind_events": 4,
+        "total_affected_people": 14298,
+        "total_houses_submerged": 3143,
+        "hydromet_density_class": "TINGGI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              96.1411,
+              3.9883
+            ],
+            [
+              96.5011,
+              3.9883
+            ],
+            [
+              96.5011,
+              4.3483
+            ],
+            [
+              96.1411,
+              4.3483
+            ],
+            [
+              96.1411,
+              3.9883
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.15",
+        "region_name": "Kabupaten Nagan Raya",
+        "centroid_lat": 4.1683,
+        "centroid_lon": 96.3211,
+        "elevation_m": 22.0,
+        "topography_zone": "PESISIR_BARAT_SELATAN",
+        "nearest_bmkg_station_wmo": "96011",
+        "total_disaster_events": 17,
+        "flood_events": 17,
+        "flash_flood_events": 0,
+        "landslide_events": 0,
+        "wind_events": 0,
+        "total_affected_people": 31266,
+        "total_houses_submerged": 7969,
+        "hydromet_density_class": "SEDANG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97.8783,
+              4.1019
+            ],
+            [
+              98.2383,
+              4.1019
+            ],
+            [
+              98.2383,
+              4.4619
+            ],
+            [
+              97.8783,
+              4.4619
+            ],
+            [
+              97.8783,
+              4.1019
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.16",
+        "region_name": "Kabupaten Aceh Tamiang",
+        "centroid_lat": 4.2819,
+        "centroid_lon": 98.0583,
+        "elevation_m": 15.0,
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "nearest_bmkg_station_wmo": "96009",
+        "total_disaster_events": 21,
+        "flood_events": 21,
+        "flash_flood_events": 0,
+        "landslide_events": 0,
+        "wind_events": 0,
+        "total_affected_people": 35187,
+        "total_houses_submerged": 8119,
+        "hydromet_density_class": "TINGGI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              96.6817,
+              4.5467
+            ],
+            [
+              97.0417,
+              4.5467
+            ],
+            [
+              97.0417,
+              4.9067
+            ],
+            [
+              96.6817,
+              4.9067
+            ],
+            [
+              96.6817,
+              4.5467
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.17",
+        "region_name": "Kabupaten Bener Meriah",
+        "centroid_lat": 4.7267,
+        "centroid_lon": 96.8617,
+        "elevation_m": 1320.0,
+        "topography_zone": "DATARAN_TINGGI_TENGAH",
+        "nearest_bmkg_station_wmo": "96009",
+        "total_disaster_events": 15,
+        "flood_events": 8,
+        "flash_flood_events": 0,
+        "landslide_events": 5,
+        "wind_events": 2,
+        "total_affected_people": 11139,
+        "total_houses_submerged": 3558,
+        "hydromet_density_class": "SEDANG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              96.0669,
+              5.0611
+            ],
+            [
+              96.4269,
+              5.0611
+            ],
+            [
+              96.4269,
+              5.4211
+            ],
+            [
+              96.0669,
+              5.4211
+            ],
+            [
+              96.0669,
+              5.0611
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.18",
+        "region_name": "Kabupaten Pidie Jaya",
+        "centroid_lat": 5.2411,
+        "centroid_lon": 96.2469,
+        "elevation_m": 10.0,
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "nearest_bmkg_station_wmo": "96009",
+        "total_disaster_events": 5,
+        "flood_events": 4,
+        "flash_flood_events": 0,
+        "landslide_events": 1,
+        "wind_events": 0,
+        "total_affected_people": 8159,
+        "total_houses_submerged": 2363,
+        "hydromet_density_class": "RENDAH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              95.1438,
+              5.3683
+            ],
+            [
+              95.5038,
+              5.3683
+            ],
+            [
+              95.5038,
+              5.7283
+            ],
+            [
+              95.1438,
+              5.7283
+            ],
+            [
+              95.1438,
+              5.3683
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.71",
+        "region_name": "Kota Banda Aceh",
+        "centroid_lat": 5.5483,
+        "centroid_lon": 95.3238,
+        "elevation_m": 5.0,
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "nearest_bmkg_station_wmo": "96001",
+        "total_disaster_events": 2,
+        "flood_events": 1,
+        "flash_flood_events": 0,
+        "landslide_events": 0,
+        "wind_events": 1,
+        "total_affected_people": 2245,
+        "total_houses_submerged": 382,
+        "hydromet_density_class": "RENDAH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              95.1392,
+              5.7133
+            ],
+            [
+              95.4992,
+              5.7133
+            ],
+            [
+              95.4992,
+              6.0733
+            ],
+            [
+              95.1392,
+              6.0733
+            ],
+            [
+              95.1392,
+              5.7133
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.72",
+        "region_name": "Kota Sabang",
+        "centroid_lat": 5.8933,
+        "centroid_lon": 95.3192,
+        "elevation_m": 85.0,
+        "topography_zone": "KEPULAUAN",
+        "nearest_bmkg_station_wmo": "96002",
+        "total_disaster_events": 0,
+        "flood_events": 0,
+        "flash_flood_events": 0,
+        "landslide_events": 0,
+        "wind_events": 0,
+        "total_affected_people": 0,
+        "total_houses_submerged": 0,
+        "hydromet_density_class": "RENDAH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              96.9707,
+              5.0001
+            ],
+            [
+              97.3307,
+              5.0001
+            ],
+            [
+              97.3307,
+              5.3601
+            ],
+            [
+              96.9707,
+              5.3601
+            ],
+            [
+              96.9707,
+              5.0001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.73",
+        "region_name": "Kota Lhokseumawe",
+        "centroid_lat": 5.1801,
+        "centroid_lon": 97.1507,
+        "elevation_m": 6.0,
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "nearest_bmkg_station_wmo": "96009",
+        "total_disaster_events": 3,
+        "flood_events": 3,
+        "flash_flood_events": 0,
+        "landslide_events": 0,
+        "wind_events": 0,
+        "total_affected_people": 976,
+        "total_houses_submerged": 1500,
+        "hydromet_density_class": "RENDAH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97.7883,
+              4.2883
+            ],
+            [
+              98.1483,
+              4.2883
+            ],
+            [
+              98.1483,
+              4.6483
+            ],
+            [
+              97.7883,
+              4.6483
+            ],
+            [
+              97.7883,
+              4.2883
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.74",
+        "region_name": "Kota Langsa",
+        "centroid_lat": 4.4683,
+        "centroid_lon": 97.9683,
+        "elevation_m": 10.0,
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "nearest_bmkg_station_wmo": "96009",
+        "total_disaster_events": 2,
+        "flood_events": 0,
+        "flash_flood_events": 0,
+        "landslide_events": 1,
+        "wind_events": 1,
+        "total_affected_people": 270,
+        "total_houses_submerged": 0,
+        "hydromet_density_class": "RENDAH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97.8253,
+              2.4619
+            ],
+            [
+              98.1853,
+              2.4619
+            ],
+            [
+              98.1853,
+              2.8219
+            ],
+            [
+              97.8253,
+              2.8219
+            ],
+            [
+              97.8253,
+              2.4619
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region_code": "11.75",
+        "region_name": "Kota Subulussalam",
+        "centroid_lat": 2.6419,
+        "centroid_lon": 98.0053,
+        "elevation_m": 75.0,
+        "topography_zone": "PESISIR_BARAT_SELATAN",
+        "nearest_bmkg_station_wmo": "96011",
+        "total_disaster_events": 1,
+        "flood_events": 0,
+        "flash_flood_events": 0,
+        "landslide_events": 0,
+        "wind_events": 1,
+        "total_affected_people": 130,
+        "total_houses_submerged": 0,
+        "hydromet_density_class": "RENDAH"
+      }
+    }
+  ]
+}

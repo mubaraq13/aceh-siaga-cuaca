@@ -1,0 +1,406 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "ACEH SIAGA CUACA",
+    "description": "Informasi Cuaca, Kesiapsiagaan, dan Perlindungan Masyarakat Aceh.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/v1/health": {
+      "get": {
+        "tags": [
+          "Aceh Siaga Cuaca API v1"
+        ],
+        "summary": "Get Health",
+        "operationId": "get_health_api_v1_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardAPIEnvelope_dict_str__Any__"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/regions": {
+      "get": {
+        "tags": [
+          "Aceh Siaga Cuaca API v1"
+        ],
+        "summary": "Get Regions",
+        "operationId": "get_regions_api_v1_regions_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardAPIEnvelope_dict_str__Any__"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/forecasts": {
+      "get": {
+        "tags": [
+          "Aceh Siaga Cuaca API v1"
+        ],
+        "summary": "Get Forecasts",
+        "operationId": "get_forecasts_api_v1_forecasts_get",
+        "parameters": [
+          {
+            "name": "adm4",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Kode Desa/Gampong ADM4 Aceh (contoh: 11.71.01.2001)",
+              "title": "Adm4"
+            },
+            "description": "Kode Desa/Gampong ADM4 Aceh (contoh: 11.71.01.2001)"
+          },
+          {
+            "name": "region_code",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Kode Kabupaten/Kota ADM2 Aceh (contoh: 11.71)",
+              "default": "11.71",
+              "title": "Region Code"
+            },
+            "description": "Kode Kabupaten/Kota ADM2 Aceh (contoh: 11.71)"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardAPIEnvelope_dict_str__Any__"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/alerts/active": {
+      "get": {
+        "tags": [
+          "Aceh Siaga Cuaca API v1"
+        ],
+        "summary": "Get Active Alerts",
+        "operationId": "get_active_alerts_api_v1_alerts_active_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardAPIEnvelope_dict_str__Any__"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/analytics/historical": {
+      "get": {
+        "tags": [
+          "Aceh Siaga Cuaca API v1"
+        ],
+        "summary": "Get Historical Analytics",
+        "operationId": "get_historical_analytics_api_v1_analytics_historical_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardAPIEnvelope_dict_str__Any__"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/gis/layers": {
+      "get": {
+        "tags": [
+          "Aceh Siaga Cuaca API v1"
+        ],
+        "summary": "Get Gis Layers",
+        "operationId": "get_gis_layers_api_v1_gis_layers_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardAPIEnvelope_dict_str__Any__"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/ml/predictions": {
+      "get": {
+        "tags": [
+          "Aceh Siaga Cuaca API v1"
+        ],
+        "summary": "Get Ml Predictions",
+        "operationId": "get_ml_predictions_api_v1_ml_predictions_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardAPIEnvelope_dict_str__Any__"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/education/preparedness": {
+      "get": {
+        "tags": [
+          "Aceh Siaga Cuaca API v1"
+        ],
+        "summary": "Get Preparedness Education",
+        "operationId": "get_preparedness_education_api_v1_education_preparedness_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardAPIEnvelope_dict_str__Any__"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/dashboard/summary": {
+      "get": {
+        "tags": [
+          "Aceh Siaga Cuaca API v1"
+        ],
+        "summary": "Get Dashboard Summary",
+        "description": "Endpoint agregat untuk Halaman 1 (Home) agar pemuatan halaman cepat dan hemat bandwidth.",
+        "operationId": "get_dashboard_summary_api_v1_dashboard_summary_get",
+        "parameters": [
+          {
+            "name": "region_code",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Kode Kabupaten/Kota untuk ringkasan cuaca utama",
+              "default": "11.71",
+              "title": "Region Code"
+            },
+            "description": "Kode Kabupaten/Kota untuk ringkasan cuaca utama"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardAPIEnvelope_dict_str__Any__"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "summary": "Root",
+        "operationId": "root__get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "type": "object",
+                  "title": "Response Root  Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "StandardAPIEnvelope_dict_str__Any__": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "default": "success"
+          },
+          "data_category": {
+            "type": "string",
+            "title": "Data Category",
+            "description": "Kategori data: OFFICIAL_BMKG_FORECAST | OFFICIAL_BMKG_ALERT | HISTORICAL_OBSERVATION | EXPERIMENTAL_ML_PREDICTION | DISASTER_AND_PREPAREDNESS"
+          },
+          "source_attribution": {
+            "type": "string",
+            "title": "Source Attribution",
+            "description": "Label sumber data resmi atau modul analisis"
+          },
+          "disclaimer": {
+            "type": "string",
+            "title": "Disclaimer",
+            "description": "Pernyataan batas tanggung jawab dan sifat data"
+          },
+          "last_updated_wib": {
+            "type": "string",
+            "title": "Last Updated Wib",
+            "description": "Waktu pembaruan data terakhir dalam zona waktu Asia/Jakarta (WIB)"
+          },
+          "api_health": {
+            "type": "string",
+            "title": "Api Health",
+            "description": "ONLINE | DEGRADED_USING_CACHE | OFFLINE",
+            "default": "ONLINE"
+          },
+          "is_demo_mode": {
+            "type": "boolean",
+            "title": "Is Demo Mode",
+            "default": false
+          },
+          "data": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Data"
+          }
+        },
+        "type": "object",
+        "required": [
+          "data_category",
+          "source_attribution",
+          "disclaimer",
+          "last_updated_wib",
+          "data"
+        ],
+        "title": "StandardAPIEnvelope[dict[str, Any]]"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

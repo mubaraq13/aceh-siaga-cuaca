@@ -1,0 +1,231 @@
+{
+  "project_name": "ACEH SIAGA CUACA",
+  "trained_at_wib": "2026-11-19T01:53:02.095057+07:00",
+  "dataset_version": "aceh_obs_v2026.11",
+  "model_version": "v1.0.0-exp",
+  "mandatory_disclaimer": "Analisis model eksperimental, bukan peringatan resmi BMKG.",
+  "split_summary": {
+    "split_method": "Chronological Time-Series Split (Zero Future Data Leakage)",
+    "train_rows": 7319,
+    "train_period": "2021-01-02 s.d. 2025-01-29",
+    "val_rows": 1569,
+    "val_period": "2025-01-30 s.d. 2025-12-14",
+    "test_rows": 1572,
+    "test_period": "2025-12-15 s.d. 2026-10-30",
+    "classification_target_column": "target_is_extreme_50mm",
+    "classification_threshold_mm": 50.0
+  },
+  "best_models": {
+    "best_regression_model": "XGBoost_Regressor",
+    "best_regression_test_rmse_mm": 12.765,
+    "best_classification_model": "XGBoost_Classifier",
+    "best_classification_test_f1": 0.1622,
+    "optimal_probability_threshold": 0.64
+  },
+  "walk_forward_cv_summary": {
+    "cv_folds": 5,
+    "mean_walk_forward_pr_auc": 0.0446,
+    "mean_walk_forward_f1": 0.1017
+  },
+  "regression_comparison": {
+    "Baseline_Persistence": {
+      "MAE_mm": 8.322,
+      "RMSE_mm": 17.714,
+      "R2_score": -0.9784,
+      "skill_vs_baseline_pct": null
+    },
+    "Baseline_Seasonal_Climatology": {
+      "MAE_mm": 7.232,
+      "RMSE_mm": 12.486,
+      "R2_score": 0.017,
+      "skill_vs_baseline_pct": 29.51
+    },
+    "Linear_Ridge_Regression": {
+      "MAE_mm": 5.712,
+      "RMSE_mm": 12.792,
+      "R2_score": -0.0317,
+      "skill_vs_baseline_pct": -2.45,
+      "calibration_scale_factor": 1.8
+    },
+    "Random_Forest_Regressor": {
+      "MAE_mm": 5.782,
+      "RMSE_mm": 12.782,
+      "R2_score": -0.0301,
+      "skill_vs_baseline_pct": -2.37,
+      "calibration_scale_factor": 1.8
+    },
+    "XGBoost_Regressor": {
+      "MAE_mm": 5.76,
+      "RMSE_mm": 12.765,
+      "R2_score": -0.0273,
+      "skill_vs_baseline_pct": -2.23,
+      "calibration_scale_factor": 1.8
+    },
+    "Sequence_Lag_NeuralNet_Regressor": {
+      "MAE_mm": 5.693,
+      "RMSE_mm": 12.794,
+      "R2_score": -0.032,
+      "skill_vs_baseline_pct": -2.46,
+      "calibration_scale_factor": 1.8
+    }
+  },
+  "classification_comparison": {
+    "Baseline_Persistence": {
+      "decision_threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "pr_auc": 0.0153,
+      "positive_support": 24,
+      "total_samples": 1572,
+      "confusion_matrix": {
+        "true_negative": 1524,
+        "false_positive": 24,
+        "false_negative": 24,
+        "true_positive": 0
+      }
+    },
+    "Baseline_Seasonal_Climatology": {
+      "decision_threshold": 0.15,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "pr_auc": 0.0351,
+      "positive_support": 24,
+      "total_samples": 1572,
+      "confusion_matrix": {
+        "true_negative": 1548,
+        "false_positive": 0,
+        "false_negative": 24,
+        "true_positive": 0
+      }
+    },
+    "Logistic_Regression_Balanced": {
+      "decision_threshold": 0.65,
+      "precision": 0.0396,
+      "recall": 0.3333,
+      "f1_score": 0.0708,
+      "pr_auc": 0.0618,
+      "positive_support": 24,
+      "total_samples": 1572,
+      "confusion_matrix": {
+        "true_negative": 1354,
+        "false_positive": 194,
+        "false_negative": 16,
+        "true_positive": 8
+      }
+    },
+    "Random_Forest_Classifier": {
+      "decision_threshold": 0.5,
+      "precision": 0.2,
+      "recall": 0.0417,
+      "f1_score": 0.069,
+      "pr_auc": 0.0585,
+      "positive_support": 24,
+      "total_samples": 1572,
+      "confusion_matrix": {
+        "true_negative": 1544,
+        "false_positive": 4,
+        "false_negative": 23,
+        "true_positive": 1
+      }
+    },
+    "XGBoost_Classifier": {
+      "decision_threshold": 0.64,
+      "precision": 0.2308,
+      "recall": 0.125,
+      "f1_score": 0.1622,
+      "pr_auc": 0.0733,
+      "positive_support": 24,
+      "total_samples": 1572,
+      "confusion_matrix": {
+        "true_negative": 1538,
+        "false_positive": 10,
+        "false_negative": 21,
+        "true_positive": 3
+      }
+    },
+    "Sequence_Lag_NeuralNet_Classifier": {
+      "decision_threshold": 0.13,
+      "precision": 0.027,
+      "recall": 0.2083,
+      "f1_score": 0.0478,
+      "pr_auc": 0.0192,
+      "positive_support": 24,
+      "total_samples": 1572,
+      "confusion_matrix": {
+        "true_negative": 1368,
+        "false_positive": 180,
+        "false_negative": 19,
+        "true_positive": 5
+      }
+    }
+  },
+  "feature_importance_top15": [
+    {
+      "feature": "doy_cos",
+      "importance": 0.09103
+    },
+    {
+      "feature": "month_cos",
+      "importance": 0.08151
+    },
+    {
+      "feature": "rain_roll_sum_14d",
+      "importance": 0.06639
+    },
+    {
+      "feature": "doy_sin",
+      "importance": 0.04422
+    },
+    {
+      "feature": "rain_roll_mean_7d",
+      "importance": 0.03994
+    },
+    {
+      "feature": "rain_roll_max_7d",
+      "importance": 0.03569
+    },
+    {
+      "feature": "rain_roll_sum_7d",
+      "importance": 0.03444
+    },
+    {
+      "feature": "temp_humidity_interaction",
+      "importance": 0.03381
+    },
+    {
+      "feature": "humidity_change_1d",
+      "importance": 0.03347
+    },
+    {
+      "feature": "wind_u_zonal",
+      "importance": 0.03208
+    },
+    {
+      "feature": "month_num",
+      "importance": 0.03143
+    },
+    {
+      "feature": "temp_max_c",
+      "importance": 0.02867
+    },
+    {
+      "feature": "humidity_roll_mean_3d",
+      "importance": 0.02844
+    },
+    {
+      "feature": "sunshine_hours",
+      "importance": 0.02811
+    },
+    {
+      "feature": "wind_v_meridional",
+      "importance": 0.02722
+    }
+  ],
+  "model_limitations": [
+    "Model dilatih pada titik lokasi 5 stasiun pengamatan BMKG Aceh dan merepresentasikan dinamika cuaca lokal stasiun, bukan pengganti model NWP/satelit BMKG.",
+    "Curah hujan tropis konvektif memiliki variabilitas stokastik harian yang tinggi sehingga prediksi digunakan sebagai indikator kewaspadaan dini pendamping, bukan peringatan resmi.",
+    "Analisis model eksperimental, bukan peringatan resmi BMKG."
+  ]
+}

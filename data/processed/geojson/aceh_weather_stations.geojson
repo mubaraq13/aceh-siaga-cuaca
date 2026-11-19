@@ -1,0 +1,139 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "layer_name": "Stasiun Pengamatan Cuaca BMKG Provinsi Aceh",
+    "spatial_limitation_note": "KETERBATASAN ANALISIS SPASIAL: Jaringan stasiun pengamatan sinoptik utama BMKG yang terbuka di Provinsi Aceh terdiri atas 5 stasiun yang terkonsentrasi di wilayah pesisir dan lembah (Aceh Besar, Sabang, Aceh Utara, dan Nagan Raya). Mengingat topografi Pegunungan Bukit Barisan di bagian tengah Aceh (elevasi >1.000 mdpl) menciptakan efek orografis yang tajam, sistem ini TIDAK melakukan interpolasi permukaan kontinu (IDW/Kriging) dari 5 titik stasiun ke seluruh kabupaten pegunungan untuk menghindari galat estimasi yang menyesatkan. Analisis wilayah disajikan pada titik lokasi stasiun yang terverifikasi dan agregasi batas administrasi kabupaten/kota."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.417,
+          5.5225
+        ]
+      },
+      "properties": {
+        "wmo_id": "96001",
+        "station_name": "Stasiun Meteorologi Kelas I Sultan Iskandar Muda",
+        "region_code": "11.06",
+        "elevation_m": 20.0,
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "obs_days": 2093,
+        "mean_daily_rain_mm": 4.61,
+        "max_daily_rain_mm": 116.2,
+        "r20mm_days": 164,
+        "r50mm_extreme_days": 27,
+        "mean_temp_c": 26.99,
+        "mean_humidity_pct": 79.19,
+        "data_nature": "OBSERVATION_STATION",
+        "source_attribution": "BMKG Provinsi Aceh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.3397,
+          5.8742
+        ]
+      },
+      "properties": {
+        "wmo_id": "96002",
+        "station_name": "Stasiun Meteorologi Maimun Saleh Sabang",
+        "region_code": "11.72",
+        "elevation_m": 126.0,
+        "topography_zone": "KEPULAUAN",
+        "obs_days": 2099,
+        "mean_daily_rain_mm": 5.41,
+        "max_daily_rain_mm": 119.5,
+        "r20mm_days": 204,
+        "r50mm_extreme_days": 38,
+        "mean_temp_c": 27.26,
+        "mean_humidity_pct": 79.52,
+        "data_nature": "OBSERVATION_STATION",
+        "source_attribution": "BMKG Provinsi Aceh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.4472,
+          5.4045
+        ]
+      },
+      "properties": {
+        "wmo_id": "96003",
+        "station_name": "Stasiun Klimatologi Aceh (Indrapuri)",
+        "region_code": "11.06",
+        "elevation_m": 45.0,
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "obs_days": 2094,
+        "mean_daily_rain_mm": 5.15,
+        "max_daily_rain_mm": 140.5,
+        "r20mm_days": 201,
+        "r50mm_extreme_days": 27,
+        "mean_temp_c": 26.55,
+        "mean_humidity_pct": 79.35,
+        "data_nature": "OBSERVATION_STATION",
+        "source_attribution": "BMKG Provinsi Aceh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.9475,
+          5.2286
+        ]
+      },
+      "properties": {
+        "wmo_id": "96009",
+        "station_name": "Stasiun Meteorologi Malikussaleh Aceh Utara",
+        "region_code": "11.08",
+        "elevation_m": 8.0,
+        "topography_zone": "PESISIR_TIMUR_UTARA",
+        "obs_days": 2090,
+        "mean_daily_rain_mm": 4.82,
+        "max_daily_rain_mm": 96.7,
+        "r20mm_days": 188,
+        "r50mm_extreme_days": 18,
+        "mean_temp_c": 27.16,
+        "mean_humidity_pct": 79.38,
+        "data_nature": "OBSERVATION_STATION",
+        "source_attribution": "BMKG Provinsi Aceh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.2483,
+          4.045
+        ]
+      },
+      "properties": {
+        "wmo_id": "96011",
+        "station_name": "Stasiun Meteorologi Cut Nyak Dhien Nagan Raya",
+        "region_code": "11.15",
+        "elevation_m": 4.0,
+        "topography_zone": "PESISIR_BARAT_SELATAN",
+        "obs_days": 2094,
+        "mean_daily_rain_mm": 7.47,
+        "max_daily_rain_mm": 178.5,
+        "r20mm_days": 291,
+        "r50mm_extreme_days": 73,
+        "mean_temp_c": 26.64,
+        "mean_humidity_pct": 79.51,
+        "data_nature": "OBSERVATION_STATION",
+        "source_attribution": "BMKG Provinsi Aceh"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+# 1. Timpa otomatis backend\requirements.txt agar kompatibel dengan Python 3.14 Windows
+@"
+# Data Engineering & HTTP
+requests>=2.32.3
+urllib3>=2.2.3
+pydantic>=2.10.0
+pydantic-settings>=2.6.1
+python-dotenv>=1.0.1
+defusedxml>=0.7.1
+openpyxl>=3.1.5
+
+# Data Science & Analytics
+numpy>=2.1.0
+pandas>=2.2.3
+scipy>=1.14.1
+matplotlib>=3.9.2
+seaborn>=0.13.2
+plotly>=5.24.1
+
+# Geospatial (GIS)
+shapely>=2.0.6
+geopandas>=1.0.1
+folium>=0.18.0
+
+# Machine Learning
+scikit-learn>=1.5.2
+xgboost>=2.1.2
+statsmodels>=0.14.4
+joblib>=1.4.2
+
+# Backend & Database
+fastapi>=0.115.4
+uvicorn[standard]>=0.32.0
+sqlalchemy>=2.0.36
+geoalchemy2>=0.15.2
+psycopg[binary]>=3.2.0
+
+# Testing
+pytest>=8.3.3
+pytest-cov>=6.0.0
+httpx>=0.27.2
+"@ | Set-Content -Path "backend\requirements.txt" -Encoding UTF8
+
+# 2. Instal menggunakan binary wheel (.whl) tanpa kompilasi C++
+pip install --upgrade pip
+pip install --prefer-binary -r backend\requirements.txt
